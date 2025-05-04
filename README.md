@@ -13,11 +13,23 @@ This project uses CLIP (Contrastive Language-Image Pre-Training) and a fine-tune
 ## Requirements
 
 ```
-torch
-clip
-Pillow
+imbalanced-learn
+scikit-learn==1.4.2
+pandas
+evaluate
+datasets
+accelerate
+git+https://github.com/huggingface/transformers.git
+huggingface_hub
+matplotlib
+numpy
+pillow==11.0.0
+torchvision
 opencv-python
-transformers
+gradio
+openai-clip
+datasets
+tqdm
 ```
 
 You'll also need the fine-tuned SigLIP model for animal classification.
@@ -32,7 +44,6 @@ You'll also need the fine-tuned SigLIP model for animal classification.
 
 2. Install dependencies:
    ```
-   pip install torch clip Pillow opencv-python transformers
    pip install -r requirements.txt
    ```
 
