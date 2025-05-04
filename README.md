@@ -36,6 +36,59 @@ You'll also need the fine-tuned SigLIP model for animal classification.
    pip install -r requirements.txt
    ```
 
+## Fine-tuning Code
+
+### CLIP Fine-tuning
+
+The CLIP model was fine-tuned using the following notebook:
+```
+clip_finetune/CLIP_finetune_kaggle.ipynb
+```
+
+This notebook contains the complete fine-tuning pipeline for adapting the CLIP model to better detect humans and animals.
+
+### SigLIP Fine-tuning
+
+The SigLIP model was fine-tuned using the following notebook:
+```
+siglip_finetune/siglip-finetune-kaggle.ipynb
+```
+
+This notebook contains the full process for fine-tuning the SigLIP model on animal and human classification tasks.
+
+## Model Weights
+
+### CLIP Fine-tuned Model
+
+The weights for the fine-tuned CLIP model can be found at:
+```
+[Google Drive Link]
+```
+
+To test the fine-tuned CLIP model, use:
+```
+python clip_finetune/CLIP_finetuned_pipeline.py
+```
+
+### SigLIP Fine-tuned Models
+
+Two fine-tuned SigLIP models are available on HuggingFace:
+
+1. **Animal-only Classification Model**:
+   - HuggingFace Model: [Soumyajit9979/animal-siglip-classification](https://huggingface.co/Soumyajit9979/animal-siglip-classification)
+
+2. **Combined Human and Animal Classification Model**:
+   - HuggingFace Model: [Soumyajit9979/siglip-finetuned-animal-human](https://huggingface.co/Soumyajit9979/siglip-finetuned-animal-human)
+
+## Performance Metrics
+
+| Model | Accuracy |
+|-------|----------|
+| CLIP (Fine-tuned) | 92.89% |
+| SigLIP (Fine-tuned) | 92.96% |
+
+The fine-tuned SigLIP model achieves marginally better accuracy than the fine-tuned CLIP model, with both models achieving excellent performance for the human and animal detection tasks.
+
 
 ## Usage
 
@@ -142,10 +195,3 @@ The following datasets were used for training the fine-tuned models:
 - For video processing, frames are analyzed at regular intervals (stride) to improve performance
 - Detection confidence values are displayed both in the console and on the processed video frames
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Specify your license here]
