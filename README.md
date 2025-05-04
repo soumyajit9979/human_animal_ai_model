@@ -62,7 +62,7 @@ This notebook contains the full process for fine-tuning the SigLIP model on anim
 
 The weights for the fine-tuned CLIP model can be found at:
 ```
-[Google Drive Link]
+[CLIP weights](https://drive.google.com/drive/folders/1ByVl3Aw52sktAikegyTpO2eTi_4ww26-?usp=sharing)
 ```
 
 To test the fine-tuned CLIP model, use:
@@ -148,10 +148,10 @@ Press 'q' to quit the live feed.
 ## Sample Outputs
 
 Sample image detection outputs can be found at the following link:
-[Animal Detection Images (Google Drive)](gdrive link)
+[Animal Detection Images (Google Drive)](https://drive.google.com/drive/folders/11vd-E64NHqzXWL3SyU--AdhxZV4laQYj?usp=sharing)
 
 Sample video detection outputs and inputs with log files are available here:
-[Video Detection Examples (Google Drive)](gdrive link)
+[Video Detection Examples (Google Drive)](https://drive.google.com/drive/folders/1bsEurz2tHF7dk_BJOW6DXyaRPJgdSs9Y?usp=sharing)
 
 
 
