@@ -92,6 +92,50 @@ Sample image detection outputs can be found at the following link:
 Sample video detection outputs and inputs with log files are available here:
 [Video Detection Examples (Google Drive)](gdrive link)
 
+
+
+
+### Gradio Interfaces
+
+#### Animals-only Classification Interface
+
+Run the Gradio interface for the SigLIP model fine-tuned on animals:
+
+```
+cd siglip_finetune
+python siglip-gradio.py
+```
+
+#### Combined Human and Animal Classification Interface
+
+Run the Gradio interface for the SigLIP model fine-tuned on both humans and animals:
+
+```
+cd siglip_finetune
+python siglib_gradio_animal_human.py
+```
+
+
+Two fine-tuned SigLIP models are available for use:
+
+1. **Animal-only Classification Model**:
+   - HuggingFace Model: [Soumyajit9979/animal-siglip-classification](https://huggingface.co/Soumyajit9979/animal-siglip-classification)
+   - Trained on animal dataset
+
+2. **Combined Human and Animal Classification Model**:
+   - HuggingFace Model: [Soumyajit9979/siglip-finetuned-animal-human](https://huggingface.co/Soumyajit9979/siglip-finetuned-animal-human)
+   - Trained on combined human and animal dataset
+
+## Training Datasets
+
+The following datasets were used for training the fine-tuned models:
+
+1. **Animals-only Dataset**:
+   - HuggingFace Dataset: [Soumyajit9979/animals-dataset](https://huggingface.co/datasets/Soumyajit9979/animals-dataset)
+
+2. **Combined Human and Animal Dataset**:
+   - HuggingFace Dataset: [Soumyajit9979/animals-humans](https://huggingface.co/datasets/Soumyajit9979/animals-humans)
+
 ## Notes
 
 - The application uses GPU acceleration if available, otherwise falls back to CPU
