@@ -26,16 +26,16 @@ You'll also need the fine-tuned SigLIP model for animal classification.
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
-   cd human-animal-detector
+   git clone https://github.com/soumyajit9979/human_animal_ai_model.git
+   cd human_animal_ai_model
    ```
 
 2. Install dependencies:
    ```
    pip install torch clip Pillow opencv-python transformers
+   pip install -r requirements.txt
    ```
 
-3. Install the `siglip_finetune` package (if separate from this repository)
 
 ## Usage
 
