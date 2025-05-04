@@ -89,6 +89,10 @@ Two fine-tuned SigLIP models are available on HuggingFace:
 
 The fine-tuned SigLIP model achieves marginally better accuracy than the fine-tuned CLIP model, with both models achieving excellent performance for the human and animal detection tasks.
 
+## Integration
+
+The main application (`main.py`) uses the CLIP model for initial human/animal detection and then leverages the fine-tuned SigLIP model for more detailed animal classification. This two-stage approach provides both broad categorization and specific animal identification.
+
 
 ## Usage
 
