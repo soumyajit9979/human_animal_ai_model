@@ -141,6 +141,10 @@ Press 'q' to quit the live feed.
 1. **First-level detection**: Uses OpenAI's CLIP model to determine if an image contains a human or an animal with a confidence threshold of 0.8
 2. **Second-level classification**: If an animal is detected, a fine-tuned SigLIP model (`Soumyajit9979/animal-siglip-classification`) classifies the specific animal type
 
+## [Sample Output Link](https://drive.google.com/drive/folders/1MssJ4cPRYcB_4JkixFSX7XUgAsHzki7a?usp=sharing)
+
+
+
 ## Sample Outputs
 
 Sample image detection outputs can be found at the following link:
