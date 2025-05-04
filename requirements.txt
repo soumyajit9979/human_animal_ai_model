@@ -1,0 +1,18 @@
+imbalanced-learn
+scikit-learn==1.4.2
+pandas
+evaluate
+datasets
+accelerate
+git+https://github.com/huggingface/transformers.git
+huggingface_hub
+matplotlib
+numpy
+pillow==11.0.0
+torchvision
+#torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+opencv-python
+gradio
+openai-clip
+datasets
+tqdm
