@@ -71,9 +71,7 @@ This notebook contains the full process for fine-tuning the SigLIP model on anim
 
 ### CLIP Fine-tuned Model
 
-The weights for the fine-tuned CLIP model can be found at:
-
-[CLIP weights](https://drive.google.com/drive/folders/1ByVl3Aw52sktAikegyTpO2eTi_4ww26-?usp=sharing)
+The weights for the fine-tuned CLIP model can be found at: [CLIP weights](https://drive.google.com/drive/folders/1ByVl3Aw52sktAikegyTpO2eTi_4ww26-?usp=sharing)
 
 To test the fine-tuned CLIP model, use:
 ```
