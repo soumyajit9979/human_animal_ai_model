@@ -1,0 +1,8 @@
+venv
+.gradio
+__pycache__
+animal_output
+animal_test
+test
+clip
+clip_finetuned_human92.pth
